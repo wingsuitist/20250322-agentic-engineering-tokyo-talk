@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@alpinejs/persist": "^3.14.9",
+    "@picocss/pico": "^2.1.1",
+    "alpinejs": "^3.14.9",
+    "mermaid": "^11.5.0"
+  },
+  "devDependencies": {
+    "@types/alpinejs": "^3.13.11",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2"
+  }
+}

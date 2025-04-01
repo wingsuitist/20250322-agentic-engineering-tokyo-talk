@@ -1,0 +1,3 @@
+- You have access to a shell with an extensive array of tools and the ability to install additional ones. This is the "Cheap Model Context" or "Command-line Model Context" - leveraging command-line tools to enhance task completion efficiency.
+- Command suggestions include (among others):
+  - Fast web search: `ddgr --json -n 20 "YOUR KEYWORDS"`

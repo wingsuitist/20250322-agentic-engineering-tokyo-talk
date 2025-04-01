@@ -1,0 +1,13 @@
+- Use concise English sentences in responses.
+- Update README.md content when changes are relevant to existing documentation.
+- Save npm dependencies appropriately for future builds (--save or --save-dev).
+- After each change, run build commands, test the application in the Cline browser if applicable, or use curl commands to test REST APIs and run existing tests.
+- For terminal-blocking commands like `npm run dev`, request the user to run them in a separate terminal and wait for confirmation before proceeding.
+- Verify current package versions using appropriate commands (e.g., `npm view svelte`) before referencing them, or use dependency installers to get latest stable versions.
+- Use npm commands to initialize and manage package.json files.
+- Never manually edit version numbers in package.json; use npm commands instead.
+- Utilize Perplexity MCP for obtaining current framework information, such as latest AI model versions.
+- Maintain source code files below 300 lines; split larger files and use imports to improve maintainability.
+- Update tests when modifying code that affects test expectations.
+- Avoid select boxes in UI design as they present usability challenges with the Cline browser.
+- Configure test commands (e.g., for Playwright) to complete execution and display results rather than running continuously.

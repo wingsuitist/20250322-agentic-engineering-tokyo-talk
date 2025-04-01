@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mermaid Diagram Generator</title>
+</head>
+<body>
+  <div x-data="app">
+    <h1>Mermaid Diagram Generator</h1>
+    
+    <div>
+      <label for="prompt">Enter your prompt:</label>
+      <textarea id="prompt" x-model="prompt" rows="4" cols="50"></textarea>
+    </div>
+    
+    <div>
+      <button @click="generateDiagram">Generate Diagram</button>
+    </div>
+    
+    <div x-show="loading">Generating diagram...</div>
+    
+    <div x-show="error" x-text="error" style="color: red;"></div>
+    
+    <div x-show="diagram">
+      <h2>Generated Diagram</h2>
+      <div id="diagram-container"></div>
+      
+      <h3>Mermaid Code</h3>
+      <div>
+        <pre><code x-text="diagram"></code></pre>
+        <button @click="copyDiagramCode">Copy Code</button>
+      </div>
+    </div>
+  </div>
+  
+  <script type="module" src="./src/app.ts"></script>
+</body>
+</html>

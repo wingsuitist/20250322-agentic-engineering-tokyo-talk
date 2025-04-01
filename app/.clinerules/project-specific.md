@@ -1,0 +1,6 @@
+- Configure API access using environment variables (reference .env.example for required configuration)
+- Set AI model parameters through environment settings
+- Ensure prompt files are properly deployed to the dist/ directory
+- Implement frontend using Alpine.js with TypeScript
+- Develop backend using Hono framework with Vitest for testing
+- Implement error handling to log backend responses to the JavaScript console when frontend errors occur
